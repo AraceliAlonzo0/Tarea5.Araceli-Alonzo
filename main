@@ -1,0 +1,74 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ */
+
+package com.mycompany.rdc;
+
+/**
+ *
+ * @author ARACELI
+ */
+public class RDC {
+    String marca;
+    String modelo;
+    int ram;
+    String SO;
+    double almacenamiento;
+
+    public RDC() {
+    }
+    
+    public RDC(String marca, String modelo, int ram, String SO, double almacenamiento) {
+        this.marca = marca;
+        this.modelo = modelo;
+        this.ram = ram;
+        this.SO = SO;
+        this.almacenamiento = almacenamiento;
+    }
+
+    public String getMarca() {
+        return marca;
+    }
+
+    public void setMarca(String marca) {
+        this.marca = marca;
+    }
+
+    public String getModelo() {
+        return modelo;
+    }
+
+    public void setModelo(String modelo) {
+        this.modelo = modelo;
+    }
+
+    public int getRam() {
+        return ram;
+    }
+
+    public void setRam(int ram) {
+        this.ram = ram;
+    }
+
+    public String getSO() {
+        return SO;
+    }
+
+    public void setSO(String SO) {
+        this.SO = SO;
+    }
+
+    public double getAlmacenamiento() {
+        return almacenamiento;
+    }
+
+    public void setAlmacenamiento(double almacenamiento) {
+        this.almacenamiento = almacenamiento;
+    }
+
+    @Override
+    public String toString() {
+        return "RDC{" + "marca=" + marca + ", modelo=" + modelo + ", ram=" + ram + ", SO=" + SO + ", almacenamiento=" + almacenamiento + '}';
+    }
+
+}
